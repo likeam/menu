@@ -143,11 +143,12 @@ Menu
 */
 
 .menu {
-  padding: 5rem 0;
+ text-align: center;
+  margin: 0 auto;
 }
 .title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 auto;
 }
 .underline {
   width: 5rem;
@@ -177,6 +178,11 @@ Menu
 .filter-btn:hover {
   background: var(--clr-gold);
   color: var(--clr-white);
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  
 }
 .section-center {
   width: 90vw;
